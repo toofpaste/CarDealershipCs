@@ -1,0 +1,19 @@
+﻿@using cardealership;
+<h1>Here is a list of your cars</h1>
+<ul>
+  @if (Model.Count ==0)
+  {
+    <p>There are no cars to show</p>
+  }
+  @if(Model.Count !=0)
+  {
+    @foreach(Car car in Model)
+    {
+      <li>Model: @car.getModel()</li>
+      <li>Price: @car.getPrice()</li>
+      <li>Miles: @car.getMile()</li>
+    }
+    
+  }
+</ul>
+<a class="nav-link" href="/show/new">Add New Car</a>

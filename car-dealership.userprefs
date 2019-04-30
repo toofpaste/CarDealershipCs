@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{0E85E97E-CDB2-4E76-A34F-A5DF3DD435B0}|Default">
+  <MonoDevelop.Ide.ItemProperties.CarDealership PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="car-dealership/car-dealership/Controllers/ItemsControler.cs">
+    <Files>
+      <File FileName="car-dealership/car-dealership/HomeController.cs" Line="14" Column="1" />
+      <File FileName="car-dealership/car-dealership/Form.cshtml" Line="35" Column="1" />
+      <File FileName="car-dealership/car-dealership/Show.cshtml" Line="1" Column="1" />
+      <File FileName="car-dealership/car-dealership/Controllers/ItemsControler.cs" Line="12" Column="17" />
+      <File FileName="car-dealership/car-dealership/models/Car.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
