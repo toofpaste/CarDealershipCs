@@ -7,6 +7,7 @@ namespace cardealership
         private string Model;
         private int Price;
         private int Miles;
+        private int _id;
         private static List<Car> _instances = new List<Car> { };
 
         public Car(string model, int price, int miles)
@@ -15,6 +16,7 @@ namespace cardealership
             Price = price;
             Miles = miles;
             _instances.Add(this);
+            _id = _instances.Count;
         }
         public bool CheckPrice(int price)
         {
@@ -42,10 +44,20 @@ namespace cardealership
             return _instances;
         }
 
-        public static void ClearAll()
+        public static void ClearAllList()
         {
             _instances.Clear();
         }
+        public int getId()
+        {
+          return _id;
+        }
+
+        public static Car Find(int searchId)
+        {
+          return _instances[searchId-1];
+        }
+
 
     }
 }
